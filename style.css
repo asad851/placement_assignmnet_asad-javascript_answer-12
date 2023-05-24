@@ -1,0 +1,73 @@
+
+.container{
+    height:100%;
+    margin:20px;
+    box-sizing: border-box;
+
+}
+.content{
+    padding:20px 10px;
+    box-sizing: border-box;
+    border:1px solid rgba(0,0,0,0.6);
+    height:100%;
+    width:100%;
+}
+.searchbox{
+    width:100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchbox input:first-child{
+    width:50%;
+    padding:10px;
+    border-radius: 8px ;
+    
+}
+.searchbox input:first-child:focus{
+    outline:none;
+}
+.searchbox textarea{
+    margin-top: 15px;
+    width:50%;
+    padding:15px;
+    height:200px;
+}
+.searchbox button{
+    margin-top: 10px;
+    box-sizing: border-box;
+    width:10%;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(241, 152, 120);
+    color:white;
+    font-size: 16px;
+    font-weight:500;
+}
+.blogs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogbox{
+    margin-top: 20px;
+    width:80%;
+    border:1px solid rgba(0,0,0,0.3);
+    padding:10px 15px;
+    border-radius: 10px;
+}
+.deleteBtn{
+    margin-top: 10px;
+    box-sizing: border-box;
+    width:10%;
+    padding:5px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(241, 152, 120);
+    color:white;
+    font-size: 16px;
+    font-weight:500;
+}
